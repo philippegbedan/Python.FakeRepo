@@ -1,5 +1,5 @@
 def ajouter(a, b):
-    return a + b + 1
+    return a + b
 
 
 def multiplier(a, b):
