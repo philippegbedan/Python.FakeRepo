@@ -1,5 +1,5 @@
 import unittest
-from calcul import ajouter, multiplier, ajouter_puis_multiplier
+from calcul import ajouter, multiplier, soustraire, ajouter_puis_multiplier
 
 
 class TestCalcul(unittest.TestCase):
@@ -13,6 +13,11 @@ class TestCalcul(unittest.TestCase):
         self.assertEqual(multiplier(2, 3), 6)
         self.assertEqual(multiplier(0, 3), 0)
         self.assertEqual(multiplier(-2, 3), -6)
+
+    def test_soustraire(self):
+        self.assertEqual(soustraire(2, 2), 0)
+        self.assertEqual(soustraire(2, 0), 2)
+        self.assertEqual(soustraire(0, 2), -2)
 
     def test_ajouter_puis_multiplier(self):
         self.assertEqual(ajouter_puis_multiplier(
