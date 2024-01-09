@@ -8,7 +8,7 @@ def multiplier(a, b):
 
 # Fonction soustraire
 def soustraire(a, b):
-    return a - b
+    return a + b
 
 
 def ajouter_puis_multiplier(a, b, c):
