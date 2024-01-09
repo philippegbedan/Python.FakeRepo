@@ -6,6 +6,7 @@ def multiplier(a, b):
     return a * b
 
 
+# Fonction soustraire
 def soustraire(a, b):
     return a - b
 
